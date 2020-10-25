@@ -23,7 +23,7 @@ setup(
     description="Type annotations for the lxml package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    package_data={"lxml-stubs": ["*.pyi"]},
+    package_data={"lxml-stubs": ["*.pyi", "py.typed"]},
     packages=["lxml-stubs"],
     tests_require=tests_require,
     extras_require={"test": tests_require},
